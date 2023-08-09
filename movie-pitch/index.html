@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Pitch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/movie-pitch/css/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+      >
+        <title>film</title>
+        <path
+          d="M0 4v24h32v-24h-32zM6 26h-4v-4h4v4zM6 18h-4v-4h4v4zM6 10h-4v-4h4v4zM24 26h-16v-20h16v20zM30 26h-4v-4h4v4zM30 18h-4v-4h4v4zM30 10h-4v-4h4v4zM12 10v12l8-6z"
+        />
+      </svg>
+      <a href="/"><span>Movie</span>Pitch</a>
+    </header>
+    <main>
+      <!-- The Setup -->
+      <section id="setup-container">
+        <div class="setup-inner">
+          <img src="/movie-pitch/images/movieboss.jpg" />
+          <div class="speech-bubble-ai" id="speech-bubble-ai">
+            <p id="movie-boss-text">
+              Give me a one-sentence concept and I'll give you an eye-catching
+              title, a synopsis the studios will love, a movie poster... AND
+              choose the cast!
+            </p>
+          </div>
+        </div>
+        <div
+          class="setup-inner setup-input-container"
+          id="setup-input-container"
+        >
+          <textarea
+            id="setup-textarea"
+            placeholder="An evil genius wants to take over the world using AI."
+          ></textarea>
+          <button class="send-btn" id="send-btn" aria-label="send">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+                <title>send</title>
+                <path d="M2.016 21v-6.984l15-2.016-15-2.016v-6.984l21 9z"/>
+                </svg>
+          </button>
+        </div>
+      </section>
+      <!-- The Output -->
+      <section class="output-container" id="output-container">
+        <div id="output-img-container" class="output-img-container"></div>
+        <h1 id="output-title"></h1>
+        <h2 id="output-stars"></h2>
+        <p id="output-text"></p>
+      </section>
+    </main>
+    <footer>&copy; 2023 MoviePitch All rights reserved</footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
