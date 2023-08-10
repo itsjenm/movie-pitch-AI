@@ -35,7 +35,7 @@
     <a href="https://github.com/itsjenm/movie-pitch-AI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://itsjenm.github.io/movie-pitch-AI/">View Demo</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
