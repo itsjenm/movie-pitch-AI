@@ -18,20 +18,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/itsjenm/movie-pitch-AI">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/movie-logo.PNG" alt="Logo" >
   </a>
 
 <h3 align="center">Movie Pitch</h3>
@@ -39,7 +32,7 @@
   <p align="center">
     A fast an easy way to validate your movie idea and generate a pitch using AI.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/itsjenm/movie-pitch-AI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -83,9 +76,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](project\movie-pitch-demo.PNG)
+<img src="images/movie-pitch-demo.PNG" alt="Logo" >
 
-A project built using Open AI and Chat-GPT to generate movie pitches based on the user's input. Movie Pitch generates movie synopsis based on the movie topics given to it. For a more human-like synopsis, we provided examples of how we want the movie synopsis generated: `itsjenm`, `movie-pitch-AI`, `@jendoescode`, `jmartinez414@gmail.com`, `project_title`, `project_description`
+
+A project built using Open AI and Chat-GPT to generate movie pitches based on the user's input. Movie Pitch generates movie synopsis based on the movie topics given to it. For a more human-like synopsis, we provided examples of how we want the movie synopsis generated: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,9 +87,8 @@ A project built using Open AI and Chat-GPT to generate movie pitches based on th
 
 ### Built With
 
-* [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
-* [!OpenAI][OpenAI-url]
+* [OpenAi][OpenAI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +106,7 @@ This is an example of how to list things you need to use the software and how to
 * npm
   ```sh
   npm install npm@latest -g
+  npm start
   ```
 
 ### Installation
@@ -149,10 +143,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- Used the OpenAi API
+    - text-davinci-003 model 
+    - createCompletions endpoint
+- The zero shot approach
+- The few shot approach 
+- max_tokens
+- temperature 
+
+
+
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -167,6 +167,13 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
+
+Stretch Goals 
+- DRY - one function to call the API
+- Create a full script 
+- Create character images 
+- Tailor the app to a specific genre
+- Rebuild from scratch 
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -190,22 +197,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jen - [@jendoescode](https://twitter.com/jendoescode) - jmartinez414@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/itsjenm/movie-pitch-AI](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
